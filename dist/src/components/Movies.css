@@ -1,0 +1,53 @@
+.{
+    box-sizing: border-box;
+}
+.poster {
+    width: 200px;
+    box-shadow: 4px 2px 25px -1px rgba(0,0,0,0.51);
+-webkit-box-shadow: 4px 2px 25px -1px rgba(0,0,0,0.51);
+-moz-box-shadow: 4px 2px 25px -1px rgba(0,0,0,0.51);
+}
+
+.movie-box{
+    padding: 20px;
+    grid-column: span 2;
+    
+
+}
+
+.movie-box h3{
+   
+    width: 300px;
+    margin: auto;
+}
+
+.title{
+    display: block;
+}
+
+.movie-cont{
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1024px) {
+    .movie-box{
+        padding: 10px;
+        grid-column: span 3;
+
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .movie-box{
+        padding: 10px;
+        grid-column: span 6;
+
+    }
+  }
+
+ 

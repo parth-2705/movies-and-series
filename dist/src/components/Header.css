@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: teal;
+}
+
+.navbar img{
+    height: 30px;
+    margin: 20px ;
+}
+
+.choose img{
+    height: 400px;
+    text-align: center;
+    margin: 0;
+}
+
+.choose h4{
+    margin: 0px;
+    font-size: 20px;
+}
+.choose{
+    display: inline-block;
+    width: 300px;
+    margin: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer
+
+}
+
+.footer{
+    background-color: black;
+    margin: 0;
+    height: 350px;
+    color: white;
+    padding: 20px;
+}
